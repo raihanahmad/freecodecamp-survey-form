@@ -73,7 +73,8 @@ body {
 
 .form-group textarea {
   height: 7rem;
-  font-size: 1.1rem;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 #submit {
@@ -81,6 +82,18 @@ body {
   color: #fff;
   padding: .7rem;
   font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.i-check {
+  display: inline-block;
+  margin-right: .5rem;
+  min-width: 1.2rem;
+  min-height: 1.2rem;
+}
+
+#submit:hover {
+  background: rgb(49, 156, 90);
 }
 
 #creator {
